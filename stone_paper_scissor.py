@@ -31,17 +31,22 @@ while True:
         print("Result: Match TIE!!!")
         print("*"*25)
         print()
-    elif (choice ==1 and choice2 ==2):
-        print()
-        print("Result: Computer win!!")
-        print("*"*25)
-        print()
-    elif (choice ==2 and choice2 ==3): 
-        print()
-        print("Result: Computer win!!")
-        print("*"*25)
-        print()
-    elif (choice ==3 and choice2 ==1): 
+    # elif (choice ==1 and choice2 ==2):
+    #     print()
+    #     print("Result: Computer win!!")
+    #     print("*"*25)
+    #     print()
+    # elif (choice ==2 and choice2 ==3): 
+    #     print()
+    #     print("Result: Computer win!!")
+    #     print("*"*25)
+    #     print()
+    # elif (choice ==3 and choice2 ==1): 
+    #     print()
+    #     print("Result: Computer win!!")
+    #     print("*"*25)
+    #     print()
+    elif ((choice ==1 and choice2 ==2) or (choice ==2 and choice2 == 3) or (choice ==3 and choice2 ==1)):
         print()
         print("Result: Computer win!!")
         print("*"*25)
