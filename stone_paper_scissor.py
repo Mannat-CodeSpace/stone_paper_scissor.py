@@ -3,13 +3,13 @@ import random
 
 num = [1, 2, 3]
 
-print("/"*75)
+print("/"*100)
 window1 = "<-- Get Ready For Fun -->"
 window2 = "The Stone-Paper-Scissor Game!!!"
 print(window1.center(90))
 print()
 print(window2.center(90))
-print("~"*75)
+print("~"*100)
 print()
 print("[*]","Rules To Play-->")
 print("{1} '1' refers to STONE")
@@ -31,21 +31,6 @@ while True:
         print("Result: Match TIE!!!")
         print("*"*25)
         print()
-    # elif (choice ==1 and choice2 ==2):
-    #     print()
-    #     print("Result: Computer win!!")
-    #     print("*"*25)
-    #     print()
-    # elif (choice ==2 and choice2 ==3): 
-    #     print()
-    #     print("Result: Computer win!!")
-    #     print("*"*25)
-    #     print()
-    # elif (choice ==3 and choice2 ==1): 
-    #     print()
-    #     print("Result: Computer win!!")
-    #     print("*"*25)
-    #     print()
     elif ((choice ==1 and choice2 ==2) or (choice ==2 and choice2 == 3) or (choice ==3 and choice2 ==1)):
         print()
         print("Result: Computer win!!")
