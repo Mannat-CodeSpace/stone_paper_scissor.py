@@ -3,13 +3,13 @@ import random
 
 num = [1, 2, 3]
 
-print("/"*100)
+print("/"*75)
 window1 = "<-- Get Ready For Fun -->"
 window2 = "The Stone-Paper-Scissor Game!!!"
 print(window1.center(90))
 print()
 print(window2.center(90))
-print("~"*100)
+print("~"*75)
 print()
 print("[*]","Rules To Play-->")
 print("{1} '1' refers to STONE")
